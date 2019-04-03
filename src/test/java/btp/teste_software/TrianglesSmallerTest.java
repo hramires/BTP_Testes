@@ -8,7 +8,7 @@ public class TrianglesSmallerTest {
 	
 	@Test
 	public void classifyTest(){
-		assertEquals(new TrianglesSmaller(5,5,6).classify(), "equilateral");
+		assertEquals(new TrianglesSmaller(5,5,5).classify(), "equilateral");
 	}
 	
 }
